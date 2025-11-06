@@ -287,7 +287,7 @@ function Page() {
           >
             <h1 className="text-3xl mb-10 lg:md-20">About me</h1>
             <p className="mb-10 text-roboto">
-              Hey there! I&apos;m Dinesh, a passionate Full Stack Developer and Computer Science Engineer skilled in the MERN stack, DevOps, and modern web technologies. Discover his innovative projects, technical expertise, and hands-on experience in building scalable, user-friendly web applications."
+              Hey there! I&apos;m Dinesh, a passionate Full Stack Developer and Computer Science Engineer skilled in the MERN stack, DevOps, and modern web technologies. Discover my innovative projects, technical expertise, and hands-on experience in building scalable, user-friendly web applications.
             </p>
             <p className="mb-10">
               When I&apos;m not coding, you can find me [Your
@@ -314,7 +314,8 @@ function Page() {
                   }}
                   aria-label="My Favorite Images"
                 >
-                  {TOOLS.reverse().map((tool) => (
+                  {/** avoid mutating TOOLS */}
+                  {[...TOOLS].reverse().map((tool) => (
                     <SplideSlide key={tool.name}>
                       <div
                         key={tool.name}
@@ -327,34 +328,6 @@ function Page() {
                 </Splide>
               )}
             </div>
-            {/* <div className="">
-              <Splide
-                options={{
-                  type: "loop",
-                  interval: 2000,
-                  autoplay: true,
-                  pagination: false,
-                  speed: 3000,
-                  perPage: 5,
-                  perMove: 1,
-                  rewind: true,
-                  easing: "cubic-bezier(0.25, 1, 0.5, 1)",
-                  arrows: false,
-                }}
-                aria-label="My Favorite Images"
-              >
-                {TOOLS.map((tool) => (
-                  <SplideSlide key={tool.name}>
-                    <div
-                      key={tool.name}
-                      className="w-fit p-2 border-[.5px] border-zinc-600 rounded-md"
-                    >
-                      {tool.icon}
-                    </div>
-                  </SplideSlide>
-                ))}
-              </Splide>
-            </div> */}
           </div>
         </main>
       </div>
