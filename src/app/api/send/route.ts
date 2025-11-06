@@ -2,6 +2,8 @@ import { EmailTemplate } from "@/components/email-template";
 import { config } from "@/data/config";
 import { Resend } from "resend";
 import { z } from "zod";
+export const dynamic = "force-dynamic";
+
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
