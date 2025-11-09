@@ -56,13 +56,13 @@ const CONTACT_LINKS = [
   {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/dineshyadav9256/",
-    content: "/zende-abhijit",
+    content: "/dinesh-yadav",
     icon: <FaLinkedin height={"50px"} />,
   },
   {
     name: "GitHub",
     href: "https://github.com/zyvrix",
-    content: "/naresh-khatri",
+    content: "/zyvrix",
     icon: <FaGithub height={"50px"} />,
   },
 ];
@@ -290,8 +290,7 @@ function Page() {
               Hey there! I&apos;m Dinesh, a passionate Full Stack Developer and Computer Science Engineer skilled in the MERN stack, DevOps, and modern web technologies. Discover my innovative projects, technical expertise, and hands-on experience in building scalable, user-friendly web applications.
             </p>
             <p className="mb-10">
-              When I&apos;m not coding, you can find me [Your
-              Interests/Hobbies], exploring new technologies, or sipping coffee
+              When I&apos;m not coding, you can find me watching web series or gaming, exploring new technologies, or sipping coffee
               while brainstorming my next project.
             </p>
             <h1 className="text-3xl mb-10 lg:md-20">Stuff I use</h1>
