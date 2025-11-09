@@ -32,7 +32,7 @@ const config = {
   ],
   author: "Dinesh Yadav",
   email: "git.push.dinesh@gmail.com",
-  site: "https://abhijitzende.com",
+  site: "https://dineshydv.vercel.app",
 
   get ogImg() {
     return this.site + "/assets/seo/og-image.png";
