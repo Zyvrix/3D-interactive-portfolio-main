@@ -11,12 +11,9 @@ import "@splidejs/react-splide/css";
 const PROJECTS = [
   {
     id: 1,
-    name: "AI Dockerfile optimizer",
-    description: `AI-Docker-file-optimizer helps optimize Dockerfiles for smaller, more efficient images. 
-            Simply paste your Dockerfile, and the app analyzes it for best practices and size 
-            optimization tips. It then provides a refactored, optimized version of the Dockerfile. 
-            Deployed on Vercel, it ensures fast and easy access to Dockerfile optimization..`,
-    link: "https://ai-docker-file-optimizer.netlify.app/",
+    name: "Nokia Snake Gesture Game",
+    description: `A classic Nokia Snake game controlled by hand gestures via webcam using MediaPipe and OpenCV. Experience the nostalgia of Nokia Snake with modern AI-powered gesture recognition!`,
+    link: "https://github.com/zyvrix",
     images: [
       "/assets/projects-screenshots/aidockerfileoptimizer/1.png",
       "/assets/projects-screenshots/aidockerfileoptimizer/2.png",
@@ -25,14 +22,9 @@ const PROJECTS = [
   },
   {
     id: 2,
-    name: "financeme",
-    description: `This project demonstrates the deployment of a DevOps pipeline for a global banking and
-            financial services provider, FinanceMe. The company transitioned from a monolithic 
-            architecture to a microservice-based architecture to handle increased traffic and 
-            scaling challenges. The project involves automating infrastructure provisioning, build 
-            and deployment processes, and continuous monitoring using modern DevOps tools and 
-            AWS services.?`,
-    link: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
+    name: "Huaren Consultancy",
+    description: `A professional consultancy platform I built that focuses on finance, strategy, and IT solutions. It helps businesses streamline operations, ensure compliance, and drive growth through smart digital transformation.`,
+    link: "https://huarenconsultancy.in/",
     images: [
       "/assets/projects-screenshots/financeme/1.png",
       "/assets/projects-screenshots/financeme/2.png",
@@ -61,13 +53,9 @@ const PROJECTS = [
   },
   {
     id: 4,
-    name: "Smart Parking Assistant",
-    description: `Transform parking with the Smart Parking Assistant, an IoT marvel powered by Arduino 
-            and IR sensors to detect and recommend the best spots in real-time. Enjoy a sleek GUI 
-            that visualizes availability and an intelligent system for quick, optimal decisions. 
-            Built to adapt with customizable hardware and Python-powered software for seamless 
-            integration. Say goodbye to parking woes and hello to smarter space utilization!`,
-    link: "https://github.com/Abhiz2411/smart-parking-assistant",
+    name: "Spotify Clone app",
+    description: `A Spotify clone app built with Next.js, Tailwind CSS, and the Spotify API. It features user authentication, music playback, and a sleek UI for an immersive music experience.`,
+    link: "https://github.com/zyvrix/Spotify-Clone",
     images: [
       "/assets/projects-screenshots/smartparkingassitant/01.jpeg",
       "/assets/projects-screenshots/smartparkingassitant/03.jpeg",

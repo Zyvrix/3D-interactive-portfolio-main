@@ -306,26 +306,23 @@ export type Project = {
 };
 const projects: Project[] = [
 
-  { // 01. AI Docker file optimizer project
-    id: "aidockerfileoptimizer",
-    category: "AI and DevOps",
-    title: "AI Dockerfile Optimizer",
+  { // 01. python project
+    id: "nokisnakegesturesgame",
+    category: "AI / Computer Vision Project",
+    title: "Nokia Snake Gesture Game",
     src: "/assets/projects-screenshots/aidockerfileoptimizer/2.png",
     screenshots: ["1.png", "2.png", "3.png"],
-    live: "https://ai-docker-file-optimizer.netlify.app/",
-    github:"https://github.com/Abhiz2411/AI-Docker-file-optimizer",
+    live: "https://",
+    github:"https://github.com/zyvrix",
     skills: {
-      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
-      backend: [PROJECT_SKILLS.openai,PROJECT_SKILLS.netlify],
+      frontend: [PROJECT_SKILLS.python, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
+      backend: [PROJECT_SKILLS.python,PROJECT_SKILLS.netlify],
     },
     get content() {
       return (
         <div>
           <TypographyP className="font-mono ">
-            AI-Docker-file-optimizer helps optimize Dockerfiles for smaller, more efficient images. 
-            Simply paste your Dockerfile, and the app analyzes it for best practices and size 
-            optimization tips. It then provides a refactored, optimized version of the Dockerfile. 
-            Deployed on Vercel, it ensures fast and easy access to Dockerfile optimization.
+            A classic Nokia Snake game controlled by hand gestures via webcam using MediaPipe and OpenCV. Experience the nostalgia of Nokia Snake with modern AI-powered gesture recognition!
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
@@ -339,96 +336,42 @@ const projects: Project[] = [
       );
     },
   },
-  { // 02. FinanceMe project
-    id: "financeme",
-    category: "DevOps in Banking and Finance",
-    title: "FinanceMe: Complete DevOps Capstone Project",
+  { // 02. huaren project
+    id: "huarenconsultancy",
+    category: "Web Development Project",
+    title: "Huaren Consultancy",
     src: "/assets/projects-screenshots/financeme/1.png",
     screenshots: ["/assets/projects-screenshots/financeme/1.png"],
     skills: {
       frontend: [
-        PROJECT_SKILLS.html,
-        PROJECT_SKILLS.css,
-        PROJECT_SKILLS.js,
-        PROJECT_SKILLS.bootstrap,
+        PROJECT_SKILLS.react,
+        PROJECT_SKILLS.vite,
+        PROJECT_SKILLS.tailwind,
+        PROJECT_SKILLS.framerMotion,
       ],
       backend: [
-        PROJECT_SKILLS.java,
-        PROJECT_SKILLS.maven,
-        PROJECT_SKILLS.postgres,
+        PROJECT_SKILLS.node,
+        PROJECT_SKILLS.express,
       ],
     },
-    live: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
-    github: "https://github.com/Abhiz2411/FinanceMe-Devops-Project-01",
+    live: "",
+    github: "https://github.com/zyvrix",
     get content() {
       return (
         <div>
-          <TypographyP className="font-mono text-2xl text-center">
-            FinanceMe: Complete DevOps Capstone Project
-          </TypographyP>
           <TypographyP className="font-mono ">
-            This project demonstrates the deployment of a DevOps pipeline for a global banking and
-            financial services provider, FinanceMe. The company transitioned from a monolithic 
-            architecture to a microservice-based architecture to handle increased traffic and 
-            scaling challenges. The project involves automating infrastructure provisioning, build 
-            and deployment processes, and continuous monitoring using modern DevOps tools and 
-            AWS services.?
+            A professional consultancy platform I built that focuses on finance, strategy, and IT solutions. It helps businesses streamline operations, ensure compliance, and drive growth through smart digital transformation.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
-          <TypographyH3 className="my-4 mt-8">Architecture </TypographyH3>
-          <p className="font-mono mb-2">
-            The project is divided into three main phases:
-            1.Automating Infrastructure Provisioning
-            2.Build and Deployment Automation
-            3.Continuous Monitoring
-          </p>
+          
           <SlideShow
             images={[
               `${BASE_PATH}/financeme/1.png`,
               `${BASE_PATH}/financeme/2.png`,
+              `${BASE_PATH}/financeme/3.png`,
             ]}
           />
-          <TypographyH3 className="my-4 mt-8">Automating Infrastructure Provisioning</TypographyH3>
-          <p className="font-mono mb-2">
-          Terraform is used to create 4 AWS EC2 instances:
-            Jenkins Master Node (for CI/CD pipeline management)
-            Build Server (for application and Docker image builds)
-            Production Server (for deploying Dockerized applications)
-            Monitoring Server (for continuous monitoring of Build and Prod servers)
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/financeme/4_A.png`,
-              `${BASE_PATH}/financeme/4.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 mt-8">Build and Deployment Automation</TypographyH3>
-
-          <p className="font-mono mb-2">
-          Jenkins is configured for a CI/CD pipeline:
-            Jenkins Master Node is responsible for pipeline orchestration.
-            Build Server is configured as a Jenkins Slave Node to handle application builds and Docker image creation.
-            Ansible is used for automating deployment to the Prod server, where the application is deployed using an Ansible client-server model.
-          </p>
-          <SlideShow
-            images={[
-              `${BASE_PATH}/financeme/5.png`,
-              `${BASE_PATH}/financeme/6.png`,
-              `${BASE_PATH}/financeme/7.png`,
-            ]}
-          />
-          <TypographyH3 className="my-4 mt-8">Continuous Monitoring </TypographyH3>
-          <p className="font-mono mb-2">
-          Prometheus and Grafana are used for real-time monitoring:
-            Node Exporter is installed on both Build and Prod servers to collect server metrics (CPU, Disk Space, Memory Utilization).
-            Grafana Dashboard is created to visualize these metrics for continuous monitoring.
-          </p>
-          <SlideShow images={[
-                `${BASE_PATH}/financeme/3.png`,
-                `${BASE_PATH}/financeme/8.png`,
-                `${BASE_PATH}/financeme/9.png`,
-                `${BASE_PATH}/financeme/10.png`,
-            ]} />
+          
         </div>
       );
     },
@@ -500,10 +443,10 @@ const projects: Project[] = [
     },
   },
   { // 04. Smart parking assitant
-    id: "smartparkingassitant",
-    category: "IoT",
-    title: "Smart Parking Assistant",
-    src: "/assets/projects-screenshots/smartparkingassitant/01.jpeg",
+    id: "spotifycloneapp",
+    category: "Web Development",
+    title: "Spotify Clone App",
+    src: "/assets/projects-screenshots/",
     screenshots: ["01.jpeg", "03.png"],
     live: "https://github.com/Abhiz2411/smart-parking-assistant",
     github:"https://github.com/Abhiz2411/smart-parking-assistant",
@@ -533,14 +476,14 @@ const projects: Project[] = [
       );
     },
   },
-  { // 05. Smart Job Tracker project
-    id: "smartjobtracker",
+  { // 05. Upcoming project
+    id: "upcoming",
     category: "Full stack",
-    title: "Smart Job Tracker",
+    title: "Upcoming",
     src: "/assets/projects-screenshots/smartjobtracker/02.png",
     screenshots: ["01.png", "02.png", "03.png","04.png","05.png","06.png","07.png"],
-    live: "https://job-tracker-application-eight.vercel.app/",
-    github:"https://github.com/Abhiz2411/Job-tracker-application",
+    live: "https://",
+    github:"https://github.com/",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
       backend: [PROJECT_SKILLS.firebase],
@@ -571,14 +514,14 @@ const projects: Project[] = [
       );
     },
   },
-  { // 06. Savinder Puri portfolio project
-    id: "savinderpurisportfolio",
+  { // 06.  project
+    id: "upcoming",
     category: "Web Development",
-    title: "Savinder Puri Portfolio",
-    src: "/assets/projects-screenshots/savinderpuriportfolio/01.png",
+    title: "Upcoming Project",
+    src: "/assets/projects-screenshots/savinderpuriportfolio/",
     screenshots: ["01.png", "02.png", "03.png","04.png","05.png"],
-    live: "https://savinder-puri.vercel.app/",
-    github:"https://github.com/Abhiz2411/savinder-puri",
+    live: "https://",
+    github:"https://github.com/zyvrix",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
       backend: [],
