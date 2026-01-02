@@ -29,13 +29,6 @@ const PROJECTS = [
       "/assets/projects-screenshots/financeme/1.png",
       "/assets/projects-screenshots/financeme/2.png",
       "/assets/projects-screenshots/financeme/3.png",
-      "/assets/projects-screenshots/financeme/4.png",
-      "/assets/projects-screenshots/financeme/5.png",
-      "/assets/projects-screenshots/financeme/6.png",
-      "/assets/projects-screenshots/financeme/7.png",
-      "/assets/projects-screenshots/financeme/8.png",
-      "/assets/projects-screenshots/financeme/9.png",
-      "/assets/projects-screenshots/financeme/10.png"
     ],
   },
   {
@@ -57,12 +50,38 @@ const PROJECTS = [
     description: `A Spotify clone app built with Next.js, Tailwind CSS, and the Spotify API. It features user authentication, music playback, and a sleek UI for an immersive music experience.`,
     link: "https://github.com/zyvrix/Spotify-Clone",
     images: [
-      "/assets/projects-screenshots/smartparkingassitant/01.jpeg",
-      "/assets/projects-screenshots/smartparkingassitant/03.jpeg",
-      "/assets/projects-screenshots/smartparkingassitant/04.jpeg",
+      "/assets/projects-screenshots/spotifycloneapp/01.jpeg",
+      "/assets/projects-screenshots/spotifycloneapp/02.png",
+      "/assets/projects-screenshots/spotifycloneapp/03.png",
+      "/assets/projects-screenshots/spotifycloneapp/04.png",
 
     ],
   },
+
+  {
+    id: 5,
+    name: "Veggie Delight",
+    description: `Veggie Delight is a vibrant and user-friendly website dedicated to promoting healthy eating through delicious vegetarian recipes. Built with HTML, CSS, and JavaScript, the site offers a seamless browsing experience across devices.`,
+    link: "",
+    images: [
+      "/assets/projects-screenshots/veggie_delight/01.png",
+      "/assets/projects-screenshots/veggie_delight/02.png",
+      "/assets/projects-screenshots/veggie_delight/03.png",
+      "/assets/projects-screenshots/veggie_delight/04.png",
+    ],
+  },
+  {
+    id: 6,
+    name: "Live Chat Application",
+    description: `A real-time live chat application built with Node.js, Express, and Socket.io. It allows users to join chat rooms and communicate instantly with others.`,
+    link: "",
+    images: [
+      "/assets/projects-screenshots/livechatapp/01.png",
+      "/assets/projects-screenshots/livechatapp/02.png",
+      "/assets/projects-screenshots/livechatapp/03.png",
+      "/assets/projects-screenshots/livechatapp/04.png",
+    ],
+  }
 ];
 function Page() {
   return (

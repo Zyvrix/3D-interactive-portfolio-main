@@ -38,7 +38,7 @@ const ProjectsSection = () => {
   );
 };
 const Modall = ({ project, index }: { project: Project; index: number }) => {
-  if (index < 3) {
+  if (index < 6) {
     return (
       <div className="flex items-center justify-center">
         <Modal>

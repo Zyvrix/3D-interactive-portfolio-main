@@ -312,7 +312,7 @@ const projects: Project[] = [
     title: "Nokia Snake Gesture Game",
     src: "/assets/projects-screenshots/aidockerfileoptimizer/2.png",
     screenshots: ["1.png", "2.png", "3.png"],
-    live: "https://",
+    live: "https://github.com/zyvrix",
     github:"https://github.com/zyvrix",
     skills: {
       frontend: [PROJECT_SKILLS.python, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
@@ -442,34 +442,31 @@ const projects: Project[] = [
       );
     },
   },
-  { // 04. Smart parking assitant
+  { // 04. Spotify Clone
     id: "spotifycloneapp",
     category: "Web Development",
     title: "Spotify Clone App",
-    src: "/assets/projects-screenshots/",
-    screenshots: ["01.jpeg", "03.png"],
-    live: "https://github.com/Abhiz2411/smart-parking-assistant",
-    github:"https://github.com/Abhiz2411/smart-parking-assistant",
+    src: "/assets/projects-screenshots/spotifycloneapp/01.jpeg",
+    screenshots: ["01.jpeg", "02.png", "03.png", "04.png"],
+    live: "https://zyvrix.github.io/Spotify-Clone/",
+    github:"https://github.com/Zyvrix/Spotify-Clone",
     skills: {
-      frontend: [PROJECT_SKILLS.python],
-      backend: [PROJECT_SKILLS.cplusplus, PROJECT_SKILLS.arduino],
+      frontend: [PROJECT_SKILLS.html, PROJECT_SKILLS.css, PROJECT_SKILLS.bootstrap, PROJECT_SKILLS.js],
+      backend: [],
     },
     get content() {
       return (
         <div>
           <TypographyP className="font-mono ">
-            Transform parking with the Smart Parking Assistant, an IoT marvel powered by Arduino 
-            and IR sensors to detect and recommend the best spots in real-time. Enjoy a sleek GUI 
-            that visualizes availability and an intelligent system for quick, optimal decisions. 
-            Built to adapt with customizable hardware and Python-powered software for seamless 
-            integration. Say goodbye to parking woes and hello to smarter space utilization!
+            It is a web application that mimics the core functionalities of the popular music streaming service, Spotify. Built with a focus on user experience and responsive design, this clone allows users to browse through a vast library of songs, create playlists, and enjoy seamless music playback. The application features a sleek interface, intuitive navigation, and essential features such as search, play, pause, and skip. Whether you're a music enthusiast or just looking to explore new tunes, this Spotify clone offers an engaging platform to satisfy your musical cravings.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `${BASE_PATH}/smartparkingassitant/01.jpeg`,
-              `${BASE_PATH}/smartparkingassitant/03.png`,
-              `${BASE_PATH}/smartparkingassitant/04.jpg`,
+              `${BASE_PATH}/spotifycloneapp/01.jpeg`,
+              `${BASE_PATH}/spotifycloneapp/04.png`,
+              `${BASE_PATH}/spotifycloneapp/03.png`,
+              `${BASE_PATH}/spotifycloneapp/02.png`,
             ]}
           />
         </div>
@@ -479,35 +476,31 @@ const projects: Project[] = [
   { // 05. Upcoming project
     id: "upcoming",
     category: "Full stack",
-    title: "Upcoming",
-    src: "/assets/projects-screenshots/smartjobtracker/02.png",
+    title: "Live Chat Application",
+    src: "/assets/projects-screenshots/livechatapp/01.png",
     screenshots: ["01.png", "02.png", "03.png","04.png","05.png","06.png","07.png"],
     live: "https://",
     github:"https://github.com/",
     skills: {
       frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
-      backend: [PROJECT_SKILLS.firebase],
+      backend: [PROJECT_SKILLS.node,PROJECT_SKILLS.express, PROJECT_SKILLS.mongo],
     },
     get content() {
       return (
         <div>
           <TypographyP className="font-mono ">
-            Track your job applications effortlessly with a sleek, dark-themed app that lets you 
-            manage, filter, and visualize your job search. Organize your applications with a 
-            Kanban board, monitor progress through status updates, and store everything securely. 
-            Enjoy seamless access across devices with a responsive design and email reminders for 
-            interviews. A smarter, more intuitive way to stay on top of your job hunt!
+            A real-time live chat application built with Node.js, Express, and Socket.io. It allows users to join chat rooms and communicate instantly with others.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `${BASE_PATH}/smartjobtracker/01.png`,
-              `${BASE_PATH}/smartjobtracker/02.png`,
-              `${BASE_PATH}/smartjobtracker/03.png`,
-              `${BASE_PATH}/smartjobtracker/04.png`,
-              `${BASE_PATH}/smartjobtracker/05.png`,
-              `${BASE_PATH}/smartjobtracker/06.png`,
-              `${BASE_PATH}/smartjobtracker/07.png`,
+              `${BASE_PATH}/livechatapp/01.png`,
+              // `${BASE_PATH}/livechatapp/02.png`,
+              // `${BASE_PATH}/livechatapp/03.png`,
+              // `${BASE_PATH}/livechatapp/04.png`,
+              // `${BASE_PATH}/livechatapp/05.png`,
+              // `${BASE_PATH}/livechatapp/06.png`,
+              // `${BASE_PATH}/livechatapp/07.png`,
             ]}
           />
         </div>
@@ -515,35 +508,30 @@ const projects: Project[] = [
     },
   },
   { // 06.  project
-    id: "upcoming",
+    id: "upcoming1",
     category: "Web Development",
-    title: "Upcoming Project",
-    src: "/assets/projects-screenshots/savinderpuriportfolio/",
-    screenshots: ["01.png", "02.png", "03.png","04.png","05.png"],
-    live: "https://",
-    github:"https://github.com/zyvrix",
+    title: "Veggie Delight Restaurant",
+    src: "/assets/projects-screenshots/veggie_delight/01.png",
+    screenshots: ["01.png", "02.png", "03.png","04.png"],
+    live: "https://zyvrix.github.io/Restaurant-website/index.html",
+    github:"https://github.com/Zyvrix/Restaurant-website",
     skills: {
-      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.next, PROJECT_SKILLS.tailwind, PROJECT_SKILLS.vite],
+      frontend: [PROJECT_SKILLS.js, PROJECT_SKILLS.html, PROJECT_SKILLS.css,],
       backend: [],
     },
     get content() {
       return (
         <div>
           <TypographyP className="font-mono ">
-            Step into the digital world of Savinder Puri, the beloved DevOps guru and Spiritual 
-            Alchemist, with this responsive portfolio website. 🌐✨ Explore his inspiring journey, 
-            milestones, and life-changing services blending tech and spirituality. Built with 
-            modern tools like React and TypeScript, it’s a heartfelt tribute to a mentor who 
-            transforms lives. 💻🕊️ Crafted with ❤️ by Dinesh Yadav! 🚀
+            Veggie Delight is a vibrant restaurant website designed to showcase a variety of delicious vegetarian dishes. With a user-friendly interface, visitors can easily explore the menu, learn about the restaurant's philosophy, and make reservations. The site features mouth-watering images, customer testimonials, and a blog section for sharing recipes and health tips. Built with modern web technologies, Veggie Delight offers a seamless browsing experience across all devices, inviting food lovers to indulge in wholesome vegetarian cuisine.
           </TypographyP>
           <ProjectsLinks live={this.live} repo={this.github} />
           <SlideShow
             images={[
-              `${BASE_PATH}/savinderpuriportfolio/01.png`,
-              `${BASE_PATH}/savinderpuriportfolio/02.png`,
-              `${BASE_PATH}/savinderpuriportfolio/03.png`,
-              `${BASE_PATH}/savinderpuriportfolio/04.png`,
-              `${BASE_PATH}/savinderpuriportfolio/05.png`,
+              `${BASE_PATH}/veggie_delight/01.png`,
+              `${BASE_PATH}/veggie_delight/02.png`,
+              `${BASE_PATH}/veggie_delight/03.png`,
+              `${BASE_PATH}/veggie_delight/04.png`,
             ]}
           />
         </div>
