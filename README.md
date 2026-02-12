@@ -6,9 +6,6 @@ Welcome to the repository for my personal portfolio website! 🎉 This project i
 
 ### Live preview: https://dineshydv.in
 
-
-This project is **inspired** by the amazing work of [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio). His innovative approach to web design and attention to detail has been a huge influence. Thank you, Naresh! 🙏
-
 ## 🔥 Features
 
 Here are the key highlights of my portfolio:
