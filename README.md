@@ -100,7 +100,7 @@ A huge shoutout to [Naresh Khatri](https://github.com/Naresh-Khatri/Portfolio) f
 Feel free to reach out to me for collaboration, feedback, or just to say hi! 😊
 
 - **Email:** git.push.dinesh@gmail.com
-- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/dineshyadav9256/)
+- **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/dineshyadav9256/)
 
 ---
 
